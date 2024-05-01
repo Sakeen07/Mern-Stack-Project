@@ -22,7 +22,7 @@ app.use('/bookings', bookingsRouter)
 
 mongoose
     .connect(
-     `mongodb+srv://jaleel20211199:${process.env.MONGODB_PASSWORD}@cluster0.hwsxmfi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+     // Add the Mongoose link
     )
     .then(()=>
     app.listen(3001, ()=>{
